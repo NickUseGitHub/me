@@ -1,0 +1,18 @@
+{
+  "name": "meprofile",
+  "version": "1.0.0",
+  "description": "This static website describes what is me!",
+  "main": "app/index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Chaiwat Tungtongsoontorn <nickt.tnick@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
