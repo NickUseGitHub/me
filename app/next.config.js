@@ -1,3 +1,8 @@
 module.exports = {
-  distDir: '../dist'
+  distDir: '../dist',
+  exportPathMap: async function(defaultPathMap) {
+    return {
+      '/': { page: '/' },
+    };
+  }
 }
