@@ -5,7 +5,9 @@
   "main": "app/index.js",
   "scripts": {
     "dev": "next ./app",
-    "export": "npm run build ./app && next export ./app",
+    "export": "npm run build ./app && next export ./app && npm run remove-old-docs && npm run move-export-static",
+    "remove-old-docs": "rm -fR docs",
+    "move-export-static": "mv ./app/out docs",
     "build": "next build",
     "start": "next start"
   },
