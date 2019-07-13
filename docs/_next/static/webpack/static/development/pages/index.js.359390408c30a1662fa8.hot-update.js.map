@@ -1,1 +1,0 @@
-{"version":3,"file":"static/webpack/static/development/pages/index.js.359390408c30a1662fa8.hot-update.js","sources":["webpack:///./pages/index.js"],"sourcesContent":["import React from 'react'\n\nexport default function Home() {\n  return <div>Yesss</div>\n}"],"mappings":";;;;;;;;;;;;;;;AAAA;AAEA;AACA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AACA;;;;A","sourceRoot":""}

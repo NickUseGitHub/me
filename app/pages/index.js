@@ -1,8 +1,13 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function Home() {
-  const xBool = 2 > 2
-  const hello =
-    xBool === true ? 'asd;fjasdklfjalsdjfldsajflasd' : 'asdfdasfasdfasdfsdfsa'
-  return <div>Home</div>
+  return (
+    <div>
+      Home{' '}
+      <Link href="/bio/education">
+        <a>my education</a>
+      </Link>
+    </div>
+  )
 }

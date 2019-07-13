@@ -5,6 +5,7 @@ module.exports = withCSS({
   exportPathMap: async function(defaultPathMap) {
     return {
       '/': { page: '/' },
+      '/bio/:type': { page: '/bio/[type]' },
     }
   },
 })
