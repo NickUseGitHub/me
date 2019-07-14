@@ -5,6 +5,9 @@ export default function Home() {
   return (
     <div>
       Home <Link href="/bio/education">my education</Link>
+      <style jsx>{`
+        background-color: red;
+      `}</style>
     </div>
   )
 }
