@@ -1,3 +1,4 @@
+const path = require('path')
 const withCSS = require('@zeit/next-css')
 
 module.exports = withCSS({
@@ -9,5 +10,9 @@ module.exports = withCSS({
       '/': { page: '/' },
       '/bio/education': { page: '/bio/[type]', query: { type: 'education' } },
     }
+  },
+  webpack(config, options) {
+    config.resolve.alias['@components'] = path.join(__dirname, 'components')
+    return config
   },
 })

@@ -1,13 +1,10 @@
 import React from 'react'
-import Link from 'next/link'
+import Link from '@components/Link'
 
 export default function Home() {
   return (
     <div>
-      Home{' '}
-      <Link href="/bio/education">
-        <a>my education</a>
-      </Link>
+      Home <Link href="/bio/education">my education</Link>
     </div>
   )
 }
