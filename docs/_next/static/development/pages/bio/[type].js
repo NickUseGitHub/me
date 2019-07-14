@@ -2887,7 +2887,7 @@ function () {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!**********************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fbio%2F%5Btype%5D&absolutePagePath=%2FUsers%2FChaiwatT%2FApps%2FNickApps%2FmeProfile%2Fapp%2Fpages%2Fbio%2F%5Btype%5D.js ***!
   \**********************************************************************************************************************************************************************/
@@ -2899,5 +2899,5 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fbio%2F
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[4,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=[type].js.map
