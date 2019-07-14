@@ -5,10 +5,9 @@
   "main": "app/index.js",
   "scripts": {
     "dev": "next ./app",
-    "export": "./scripts/export.sh",
-    "remove-old-docs": "rm -fR docs",
-    "move-export-static": "mv ./app/out docs",
+    "app-export": "./scripts/export.sh",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "lint": "eslint app"
   },

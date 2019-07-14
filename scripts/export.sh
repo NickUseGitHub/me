@@ -1,3 +1,5 @@
-echo "export!!"
-
-# npm run build ./app && next export ./app && npm run remove-old-docs && npm run move-export-static
+npm run build ./app \
+  && npm run export ./app \
+  && touch ./app/out/.nojekyll \
+  && rm -fR docs \
+  && mv ./app/out docs

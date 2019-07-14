@@ -1,11 +1,12 @@
 {
   "parserOptions": {
-    "ecmaVersion": 2017,
+    "ecmaVersion": 9,
     "sourceType": "module"
   },
   "plugins": ["react"],
   "extends": ["prettier", "plugin:react/recommended"],
   "rules": {
+    "no-unused-vars": "error",
     "semi": ["error", "never"],
     "quotes": ["error", "single"]
   }
