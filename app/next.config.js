@@ -13,6 +13,8 @@ module.exports = withCSS({
   },
   webpack(config, options) {
     config.resolve.alias['@components'] = path.join(__dirname, 'components')
+    config.resolve.alias['@configs'] = path.join(__dirname, 'configs')
+
     return config
   },
 })
